@@ -17,7 +17,7 @@ system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
 if (system.win || system.mac || system.xll) {
 
 } else {
-window.location.href = "/m/";
+//window.location.href = "/m/";
 }
 
 
