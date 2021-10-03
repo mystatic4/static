@@ -1,0 +1,185 @@
+﻿/* navi_01导航样式  
+--------------------------------------------------------------------*/
+.navBar {
+	width: 600px;
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	height:60px;
+	line-height:60px;
+	float: right;
+	margin-top: 14px;
+}
+
+/*nav*/
+.nav {
+	width: 600px;
+	margin: 0 auto;
+}
+.nav h3 {
+	font-size: 100%;
+	font-size: 14px;
+}
+.nav .m {
+	position: relative;
+	float: left;
+	width: 100px;
+	/*margin: 0 10px;*/
+	display: inline;
+	text-align: center;
+}
+
+.nav h3 a:link, .nav h3 a:visited {
+	zoom: 1;
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	color: #000;
+	text-align:center;
+	font-weight:normal;
+}
+
+/*当前状态*/
+.nav .cur h3 a:link, .nav .cur h3 a:visited {
+	background:url(../../img/nav_h3.png) center center no-repeat;
+	color:#fff;
+}
+.nav .on h3 a:link, .nav .on h3 a:visited {
+	background:url(../../img/nav_h3.png) center center no-repeat;
+	color:#fff;
+	-webkit-transition: all 0.0s linear -1ms;
+	-moz-transition: all 0.0s linear -1ms;
+	-ms-transition: all 0.0s linear -1ms;
+	-o-transition: all 0.0s linear -1ms;
+	transition: all 0.0s linear -1ms;
+	text-decoration:none;
+}
+.nav .on h3 a i {
+}
+
+/*一级*/
+.nav .sub {
+	display: none; /*默认隐藏*/
+	width: 100px;
+	position: absolute;
+	left: -25px;
+	float: left;
+	line-height: 30px;
+	overflow:visible;
+	_width:100%;
+	_border-bottom:none;
+	padding: 5px 30px 38px 25px;
+	background:#FFF;
+}
+.nav .sub li {
+	text-align: center;
+}
+.nav .sub li a:link, .nav .sub li a:visited {
+	color: #333;
+	display: block;
+	zoom: 1;
+	background: url(../../img/sonmenu_a.png) top right no-repeat ;
+	border-bottom: 1px solid #e5e5e5;
+	transition: all 0.2s linear;
+	border-top:none;
+	line-height: 34px;
+	padding-right:10px;
+	_width:90px;
+	_float:left;
+	_display:inline-block;
+}
+.nav .sub li a:hover {
+	background: url(../../img/sonmenu_a.png) bottom right no-repeat ;/*副色*/
+	color: #04A800;
+	text-decoration:none;
+}
+
+
+/*二级*/
+.nav .m2 {
+	position: relative;
+	width: 100%;
+	display:inline-block;
+	text-align: left;
+	*float:left;
+	*display:block;
+}
+.nav .sub2 {
+	display: none; /*默认隐藏*/
+	width: 100px;
+	position: absolute;
+	background:#dd0000;
+	z-index: 3;
+	left: 100%;
+	top: 0px;
+	line-height: 50px;
+	_left: 100px;
+}
+
+/*三级*/
+.nav .m3 {
+	position: relative;
+	width: 100%;
+	display:inline-block;
+	text-align: left;
+	*float:left;
+	*display:block;
+}
+.nav .sub3 {
+	display: none; /*默认隐藏*/
+	width: 100px;
+	position: absolute;
+	z-index: 3;
+	left: 100%;
+	top: 0px;
+	line-height: 40px;
+	_left: 100px;
+}
+
+/*自定义下拉*/
+/*.nav #m2 .sub {
+	z-index: 1;
+	background:#eee;
+	width: 980px;
+	left: -806px;
+}*/
+.nav .sub dl {
+	display: inline-block;
+	zoom: 1;
+	vertical-align: top;
+	padding: 15px 29px;
+	line-height: 26px;
+	*display:inline;
+}
+.nav .sub dl a:hover {
+	color: #035cac;
+}
+.nav .sub dl dt a:link, .nav .sub dl dt a:visited  {
+	color: #000;
+}
+.nav .sub dl dd a:link, .nav .sub dl dd a:visited {
+	color: #999;
+	padding-left: 7px;
+	background: url(images/icon.png) 0 -332px no-repeat;
+}
+
+
+
+/*下拉菜单背景*/
+
+
+.nav #m2 ul.sub{background: url(../../img/about_nav_bg.jpg) bottom right no-repeat #FFF;}
+
+.nav #m3 ul.sub{background: url(../../img/pro_nav_bg.jpg) bottom right no-repeat #FFF;}
+
+.nav #m4 ul.sub{background: url(../../img/news_nav_bg.jpg) bottom right no-repeat #FFF;}
+
+.nav #m5 ul.sub{background: url(../../img/zhishi_nav_bg.jpg) bottom right no-repeat #FFF;}
+
+.nav #m6 ul.sub{background: url(../../img/service_nav_bg.jpg) bottom right no-repeat #FFF;}
+
+
+
+
+

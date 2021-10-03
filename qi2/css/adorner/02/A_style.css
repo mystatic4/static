@@ -1,0 +1,91 @@
+/* 02装饰器  
+--------------------------------------------------------------------*/
+
+
+/*头部*/
+.Adorner02 .a_title{
+	height:35px;
+	overflow:hidden;
+}
+.Adorner02 .a_title_main{
+	height:35px;
+	overflow:hidden;
+}
+.Adorner02 .a_title_main h3{
+	font-size:18px;
+	display:inline;
+	float:left;
+	color:#006699;
+	font-weight:normal;
+	padding-top:2px;
+	/*background:url(A_images/ico.png) no-repeat left 15px;*/
+	/*padding-left:15px;*/
+}
+.Adorner02 .a_title_main a:link, .Adorner02 .a_title_main a:visited, .Adorner02 .a_title_main a:hover, .Adorner02 .a_title_main a:active, .picScroll-left .bd ul li .grid_36 a{
+	font-size:9px;
+	display:inline;
+	float:right;
+	line-height:35px;
+	color:#ff0000;
+}
+.about_pic a img{
+	width:160px;
+	height:135px;
+	padding:5px;
+	border:1px solid #EDEDED;}
+/*中间内容*/
+.Adorner02 .a_main{
+}
+.Adorner02 .a_content{
+}
+/*尾部内容*/
+.Adorner02 .a_bottom{
+	height:25px;
+}
+.Adorner02 .a_bottom_main{
+	background:url(A_images/Adorner_bottom.gif) no-repeat right top;
+	height:25px;
+	padding-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

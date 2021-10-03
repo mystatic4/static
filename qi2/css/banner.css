@@ -1,0 +1,82 @@
+﻿/* slideBox样式  
+--------------------------------------------------------------------*/
+.slideBox_wrap {
+	position:absolute;
+	top:40px;
+	width:100%;
+	overflow: hidden;
+}
+.slideBox_row {
+	width:100%;
+}
+.slideBox {
+	width:100%;
+	overflow: hidden;
+	position: relative;
+}
+.slideBox .hd {
+	height: 33px;
+	overflow: hidden;
+	position: absolute;
+	bottom:15px;
+	/*right: 10px;*/
+	z-index: 1;
+}
+.slideBox .hd ul {
+	overflow: hidden;
+	zoom: 1;
+}
+.slideBox .hd ul li {
+	margin-top:10px;
+	display:inline-block;
+	margin-right: 2px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	/*border:solid 1px #eb6500;*/
+	cursor: pointer;
+	background:url(../img/b_btn1.png) no-repeat 0 0;
+	_background:url(../img/b_btn1.png) no-repeat 0 0;
+}
+.slideBox .hd ul li.on {
+	/*background: #eb6500;
+	border:solid 1px #eb6500;*/
+	color: #fff;
+	background:url(../img/b_btn2.png) no-repeat 0 0;
+	_background:url(../img/b_btn2.png) no-repeat 0 0;
+}
+.slideBox .bd {
+	position: relative;
+	height: 100%;
+	z-index: 0;
+}
+.slideBox .bd ul li{
+	width:100%;
+
+}
+.slideBox .bd img {
+	width: 100%;
+	display: block;
+}
+/*page slideBox*/
+.page_banner_wrap {
+	width:100%;
+	position:relative;
+	height:210px;
+	overflow:hidden;
+	background: url(../img/header_bg.jpg) center top no-repeat;
+}
+.page_banner {
+	position:absolute;
+	left:50%;
+	margin-left:-960px;
+	width:1920px;
+}
+.page_banner img {
+}/*百度地图兼容
+.page_banner img {
+	height:180px;
+	width:1920px;
+
+}

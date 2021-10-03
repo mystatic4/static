@@ -1,0 +1,88 @@
+﻿.fn-clear { zoom: 1; }
+.box_skitter { position: relative; background: none; }
+    .box_skitter ul { display: none; }
+    .box_skitter .container_skitter { overflow: hidden; position: relative; }
+    .box_skitter .image { overflow: hidden; }
+        .box_skitter .image img { display: none; }
+    .box_skitter .box_clone { position: absolute; top: 0; left: 0; width: 100px; overflow: hidden; display: none; z-index: 20; }
+	
+        .box_skitter .box_clone img { position: absolute; top: 0; left: 0; z-index: 20; }
+		
+    .box_skitter .prev_button { 
+	position: absolute; 
+	top: 50%; 
+	left: 15%; 
+	z-index: 100; 
+	width: 45px; 
+	height: 45px; 
+	overflow: hidden; 
+	text-indent: -9999em; 
+	margin-top: -25px; 
+	background: url(../img/prev_button.png) no-repeat  !important;
+	opacity:0.5; 
+	-webkit-transition: all 0.3s linear -1ms;
+	-moz-transition: all 0.3s linear -1ms;
+	-ms-transition: all 0.3s linear -1ms;
+	-o-transition: all 0.3s linear -1ms;
+	transition: all 0.3s linear -1ms;
+	}
+	
+.box_skitter .next_button { 
+	position: absolute; 
+	top: 50%; 
+	right: 15%; 
+	z-index: 100; 
+	width: 45px; 
+	height: 45px; 
+	overflow: hidden; 
+	text-indent: -9999em; 
+	margin-top: -25px; 
+	background: url(../img/next_button.png) no-repeat !important; 
+	opacity:0.5; 
+	-webkit-transition: all 0.3s linear -1ms;
+	-moz-transition: all 0.3s linear -1ms;
+	-ms-transition: all 0.3s linear -1ms;
+	-o-transition: all 0.3s linear -1ms;
+	transition: all 0.3s linear -1ms;
+}
+	
+#slideshow:hover .next_button{
+	-webkit-transition: all 0.3s linear -1ms;
+	-moz-transition: all 0.3s linear -1ms;
+	-ms-transition: all 0.3s linear -1ms;
+	-o-transition: all 0.3s linear -1ms;
+	transition: all 0.3s linear -1ms;
+	 right: 20%; 
+	}
+#slideshow:hover .prev_button{
+	-webkit-transition: all 0.3s linear -1ms;
+	-moz-transition: all 0.3s linear -1ms;
+	-ms-transition: all 0.3s linear -1ms;
+	-o-transition: all 0.3s linear -1ms;
+	transition: all 0.3s linear -1ms;
+	 left: 20%; 
+	}
+
+    .box_skitter .label_skitter { z-index: 150; position: absolute; display: none; }
+	
+.loading { position: absolute; top: 50%; right: 50%; z-index: 10000; margin: -16px -16px; color: #fff; text-indent: -9999em; overflow: hidden; background: url(../images/ajax-loader.gif) no-repeat left top; width: 31px; height: 31px; }
+
+#slideshow { width: 1920px; height: 500px; }
+
+#slideshow ul { display: none; }
+	
+#yc-mod-slider{
+	overflow: hidden;
+	position: relative;
+	height: 500px;
+	}
+div.wrapper {
+	position:absolute;
+	left:50%;
+	margin-left:-960px;
+	width:1920px;
+}
+#slideshow{
+  overflow: hidden;
+  position: relative;
+}

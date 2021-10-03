@@ -1,0 +1,162 @@
+﻿/*友情链接*/
+.link{
+	height:30px;
+	line-height:30px;
+}
+.link h3{
+	color:#000;
+}
+.link a{
+	padding:0px 3px;
+}
+
+
+
+
+.contact-tips .fl p.pl32 {
+  padding-left: 32px;
+  line-height: 34px;
+  background: url(../img/bg_sign21.png) no-repeat 0 2px;
+  }
+.contact-tips .fl p.se {
+  background-position: 0 -32px;
+}
+.contact-tips .fl p.th {
+  background-position: 0 -66px;
+}
+.contact-tips .fl p.fo {
+  background-position: 0 -100px;
+}
+.contact-tips .fl p.ad {
+  background-position: 0 -138px;
+}
+.contact-tips .fl h2 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+
+
+
+/*企业概况*/
+.about-intro {
+    padding-top: 10px;
+    background: #fff;
+	margin-bottom: 25px;
+}
+.about-intro h2 {
+    font-size: 34px;
+    line-height: 54px;
+    color: #01A601;
+    text-align: center;
+}
+.about-intro .tips .line {
+    position: absolute;
+    left: 50%;
+    top: 19px;
+    width: 640px;
+    height: 1px;
+    background: #e3e3e3;
+    margin-left: -320px;
+}
+.about-intro .tips span {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    padding: 0 20px;
+    background: #fff;
+}
+.about-intro .tips {
+    position: relative;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+.aintro-line {
+    height: 1px;
+    line-height: 1px;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e8e8e8;
+    margin: 20px auto;
+}
+
+
+
+.a_r {
+	width: 450px;
+	float: left;
+	font-size: 14px;
+}
+
+.a_r h2, .a_b h2, .ho_r h2, .t_bor {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    color: #01A601;
+}
+
+.a_r p.a_en, .a_b p.a_en, .ho_r p.a_en {
+    font-size: 12px;
+    color: #b0b0b0;
+    text-transform: uppercase;
+    padding-bottom: 26px;
+}
+
+/* 经营理念*/
+.culture-content1 {
+	padding: 23px 14px 21px 18px;
+	overflow: hidden;
+	border-bottom: 2px solid #E2E2E2;
+	width: 760px;
+	margin: 0 auto;
+}
+.culture-content1 h5, .culture-content2 h5 {
+    width: 100px;
+    font: bold 14px "Microsoft Yahei";
+    line-height: 24px;
+    color: #333;
+}
+.culture-content1 p {
+    width: 230px;
+    font: 12px "Microsoft Yahei";
+    line-height: 24px;
+    color: #666;
+}
+.culture-content1 img {
+    width: 360px;
+    height: 130px;
+	margin-left: 20px;
+	border: 1px solid #ddd;
+	float: right;
+	padding:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

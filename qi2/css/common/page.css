@@ -1,0 +1,98 @@
+﻿@charset "utf-8";
+/* 企泰科技 技术部 2012-10-01 */
+
+/* 分页样式 */
+/* pageGuide  
+--------------------------------------------------------------------*/
+.Paging{margin-bottom:20px;}
+
+.pageGuide{
+	width:100%;
+	font-size: 12px;
+	padding-top:20px;
+	margin-bottom:20px;
+	}
+.pageinfo{
+	float:left;
+	}
+.paging{
+	width: 380px;
+	margin: 0 auto;
+	text-align:right;
+	}
+.paging a{
+	display:inline-block;
+	margin-left:8px;
+	background:#ddd;
+	padding:6px 10px;
+	height:18px;
+	line-height:18px;
+	overflow:hidden;_line-height:17px;
+	}
+.paging .current:link, .paging .current:visited, .paging .current:active{
+	background: #09A610;
+	color:#fff;
+	}
+.paging a:link, .paging a:visited, .paging a:active{
+	color:#666;
+	}
+.paging a:hover{
+	background:#09A610;
+	color:#fff;
+	text-decoration:none;
+	}
+.Paging .assist{ 
+	width:450px;
+	height: 36px;
+	line-height: 36px;
+	display: inline-block;
+	margin: 0 20px 0 0;
+
+}
+
+.Paging .assist span{ background:#f4f4f4; padding:0px 20px; color:#000; margin-right:1px;float: left;display: block;margin-bottom:15px;line-height: 36px;}
+
+.Paging .assist a{background:#f4f4f4; padding:0px 20px; color:#666;width:356px;height:36px;line-height: 36px;float: right;display: block;margin-bottom:15px;}
+
+.Paging .assist a:hover{color:#0657B2;background: #EAEAEA;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
