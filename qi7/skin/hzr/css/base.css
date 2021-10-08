@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*reset*/
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,strong, sub, sup, tt, var, legend, fieldset,input,textarea {margin: 0;padding: 0;}
+img, fieldset {border: 0;}
+html,body {height:100%;}
+body {font-family:"\5FAE\8F6F\96C5\9ED1",Droid Sans Fallback;}
+a {text-decoration: none;outline: none; -webkit-tap-highlight-color:rgba(0,0,0,0);}
+a:hover {text-decoration:none;}
+ul, ol ,li{ list-style:none;}
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%;}
+input,textarea,select{outline: none;-moz-box-sizing: border-box; -webkit-box-sizing:border-box; box-sizing: border-box; font-family:"\5FAE\8F6F\96C5\9ED1",Droid Sans Fallback;font-size-adjust:none; font-stretch:normal; -webkit-tap-highlight-color:rgba(0,0,0,0); }
+input:focus,textarea:focus,select{ outline:0; }
+input::-webkit-input-placeholder,input::-moz-input-placeholder,input::-webkit-textarea-placeholder,input::-moz-textarea-placeholder{ color:#aaa;}
+input:focus::-webkit-input-placeholder,input:hover::-webkit-input-placeholder,textarea:focus::-webkit-input-placeholder,textarea:hover::-webkit-input-placeholder{ color: #fff; -webkit-transition: color.5s;}
+a:focus{ -webkit-tap-highlight-color:rgba(0,0,0,0);/* -webkit-user-modify:read-write-plaintext-only;*/}
+a:hover, a:active,a:focus{ outline: 0; }
