@@ -1,0 +1,250 @@
+.width1004{ min-width:1000px;}
+.indexcontent{ margin:0 auto; width:1000px;}
+.sl{overflow:hidden; text-overflow:ellipsis;white-space: nowrap;}
+a.bs:hover{ text-decoration:underline;}
+#bignav{width: 100%;background: #fff;padding-bottom: 2px;}
+
+.content{ font-size:14px; color:#333333; line-height:30px;}
+.content *{ line-height:30px;}
+.content p{ /*padding:10px 0;*/}
+.content img{ max-width:100%;}
+
+.lx_banner{ background:url(../images/lianxi_banner.jpg) center no-repeat; height:450px;}
+.new_banner{ background:url(../images/banner_news.jpg) center no-repeat; height:450px;}
+.n_nav{ border-bottom:#e2e2e2 1px solid;}
+.n_nav .n_nav_list{text-align:center; height:50px;}
+.n_nav .n_nav_list li.n_nav_li{ display:inline-block; *display:inline; *padding:18px 0; padding-left:20px; padding-right:20px; line-height:49px; font-size:16px; color:#866d61;}
+.n_nav .n_nav_list li.n_nav_li img{margin-right: 10px;}
+.n_nav .n_nav_list li.on{ color:#987245; border-bottom:#987245 2px solid;}
+.n_nav .n_nav_list li.on a{ color:#987245;}
+
+.lx_i_list li{ float:left; background:#ececec; width:321px; height:223px; margin-left:18px;}
+.lx_i_list li .ico{ height:75px;}
+.lx_i_list li .ico1{ background:url(../images/lx_i_ico1.png) center top no-repeat;}
+.lx_i_list li .ico2{ background:url(../images/lx_i_ico2.png) center top no-repeat;}
+.lx_i_list li .ico3{ background:url(../images/lx_i_ico3.png) center top no-repeat;}
+.lx_i_list li .txt{ font-size:14px; color:#747474; line-height:25px; text-align:center;}
+
+/*在线留言*/
+.ms_box{ margin-left:78px;}
+.ms_box .ms_l{ float:left; width:95px; color: #666; line-height:30px;}
+.ms_box .ms_r{ float:left; width:770px;}
+.ms_box .ms_r .ms_r_radio li{ float:left; width:140px; height:30px; line-height:30px;}
+.ms_box .ms_r .ms_r_radio li span{ font-size:14px; color: #666; font-weight:normal;}
+.ms_box .inp{ width:278px; height:28px; border:#a9a9a9 1px solid; padding:0 10px;}
+.ms_box .ms_r2{ float:left; width:342px;}
+.ms_box .inp2{ width:716px; height:164px; border:#a9a9a9 1px solid; padding:0 10px;}
+.ms_box .ms_bt{  width: 80px; height: 30px; background: #999; color: #fff; border: 0;}
+.ms_box .ms_bt:hover{ background: #75312f;}
+
+/*坐便器技术*/
+.zbqjs_d1{ background:url(../images/zbqjs_d1_bg.jpg) center top no-repeat; height:658px; position:relative;}
+.zbqjs_title .txt1{ text-align:center; font-size:24px; color:#d29f51; line-height:40px;}
+.zbqjs_title .txt1 span{ border-bottom:#d29f51 2px solid; padding:4px 10px;}
+.zbqjs_title .txt2{ text-align:center; font-size:24px; color:#b3b3b3; line-height:40px;}
+.zbqjs_d1 .zbqjs_d1_txt{ position:absolute; left:640px; top:375px; width:328px; font-size:14px; color:#444444; line-height:30px;}
+.zbqjs_tb{ width:1000px;}
+.zbqjs_tb td{ width:500px; vertical-align:top;}
+.zbqjs_tb td .txt1{ padding:0 25px 0 128px; height:85px; line-height:85px; font-size:24px; color:#404040;}
+.zbqjs_tb td .txt2{ padding:0 25px; font-size:14px; color:#404040; line-height:25px;}
+.zbqjs_tb td .ico1{ background:url(../images/zbqjs_ico1.png) 25px center no-repeat;}
+.zbqjs_tb td .ico2{ background:url(../images/zbqjs_ico2.png) 25px center no-repeat;}
+.zbqjs_tb td .ico3{ background:url(../images/zbqjs_ico3.png) 25px center no-repeat;}
+.zbqjs_tb td .ico4{ background:url(../images/zbqjs_ico4.png) 25px center no-repeat;}
+.zbqjs_tb td .ico5{ background:url(../images/zbqjs_ico5.png) 25px center no-repeat;}
+
+/*智能技术*/
+.zbqjs_tb td .zn_ico1{ background:url(../images/znjs_ico1.png) 25px center no-repeat;}
+.zbqjs_tb td .zn_ico2{ background:url(../images/znjs_ico2.png) 25px center no-repeat;}
+.zbqjs_tb td .zn_ico3{ background:url(../images/znjs_ico3.png) 25px center no-repeat;}
+.zbqjs_tb td .zn_ico4{ background:url(../images/znjs_ico4.png) 25px center no-repeat;}
+.zbqjs_tb td .zn_ico5{ background:url(../images/znjs_ico5.png) 25px center no-repeat;}
+.zbqjs_tb td .zn_ico6{ background:url(../images/znjs_ico6.png) 25px center no-repeat;}
+.zbqjs_tb td .zn_ico7{ background:url(../images/znjs_ico7.png) 25px center no-repeat;}
+
+/*加盟代理*/
+.jmzc_txt{ text-align:center; font-size:14px; color:#414141; line-height:25px;}
+.jmzc_list li{ float:left; width:290px; margin:0 21px;}
+.jmzc_list li .txt1{ font-size:16px; color:#2e2e2e; line-height:50px; text-align:center;}
+.jmzc_list li .txt2{ font-size:14px; color:#2e2e2e; line-height:25px;}
+
+.bdbz_list li{ float:left; width:220px; height:262px; border:#eaeaeb 1px solid; margin:16px 0 16px 40px;}
+.bdbz_list li .bdbz_list_img{ display:block; width:82px; height:82px; background:#e7e7e8; border-radius:41px; margin:0 auto;}
+.bdbz_list li .bdbz_list_txt1{ font-size:14px; color:#987245; line-height:28px; text-align:center;}
+.bdbz_list li .hr{ background:#e7e7e8; width:33px; height:3px; margin:0 auto;}
+.bdbz_list li .bdbz_list_txt2{ font-size:14px; color:#666666; line-height:20px; padding:0 20px;}
+.bdbz_list li:hover{ background:#ccaa7a; border:#ccaa7a 1px solid;}
+.bdbz_list li:hover .bdbz_list_img{ background:#fff;}
+.bdbz_list li:hover .bdbz_list_txt1{ color:#fff;}
+.bdbz_list li:hover .hr{ background:#fff;}
+.bdbz_list li:hover .bdbz_list_txt2{ color:#fff;}
+
+.sqjm_c{ margin-left:70px;}
+.sqjm_inp{ width:420px; height:38px; border:#edefee 1px solid; background:#fcfcfc; padding:0 10px; font-size:14px;}
+.sqjm_textarea{ width:930px; height:192px; border:#edefee 1px solid; background:#fcfcfc; padding:10px 10px; font-size:14px; line-height:25px;}
+.sqjm_inp_ml{ margin-left:20px;}
+.sqjm_bt1{ width:166px; height:38px; background:#987245; color:#ffffff; font-size:16px; border-radius:10px; border:0;}
+.sqjm_bt2{ margin-left:35px; width:166px; height:38px; background:#bbbab9; color:#ffffff; font-size:16px; border-radius:10px; border:0;}
+
+/*工程案例*/
+.case_list li{ float:left; width:318px; padding:16px 16px 0 16px; background:#f3f4f4; margin:7px 7px;}
+.case_list li .txt{ font-size:14px; color:#474747; line-height:40px; text-align:center;}
+a.c_n_more{border-radius: 50px;width: 144px;display: block;text-align: center;margin: 0 auto;border-radius: 20px;border: 1px solid #b2b2b2;color: #b2b2b2;line-height:36px;margin-top: 20px;transition: color 0.3s,background 0.3s}
+a.c_n_more:hover{background: #987245;color: #fff}
+
+/*荣誉证书*/
+.ry_list{ overflow:hidden; zoom:1; }
+.ry_list li{ margin:10px 33px; float:left; _display:inline; overflow:hidden; text-align:center; background: #eeeeee; height:350px; width:260px}
+.ry_list li .pic{ text-align:center; }
+.ry_list li .pic img{ width:260px;padding: 20px 20px 0 20px; height:170px; display:block;  }
+.ry_list li .pic a:hover img{ border-color:#999;  }
+.ry_list li .title{ padding: 20px;line-height:24px;text-align: left;}
+
+/*专卖店查询*/
+.zxcx_left{ float:left; width:560px;}
+.zxcx_right{ float:right; width:370px; height:578px; background:#f8f8f8; padding:27px 12px;}
+.net-select{ width: 168px; height: 36px; position: relative; float: left; font-size: 16px; line-height: 38px; background: url(../images/select-bg.jpg) right no-repeat;}
+.net-select select{ position: absolute;top: 0; left: 0; width: 100%; height: 100%; opacity: 0; filter: alpha(opacity=0); border: none;}
+.net-select .select-item2 { padding-left: 14px; color:#fff;}
+.zxcx_title1{ line-height:35px; font-size:16px; color:#222222;}
+.zxcx_i_content{ height:435px; width:350px; margin:0 auto;}
+.zxcx_list{ width:340px;}
+.zxcx_list li{ padding:30px 10px 20px 10px; border-bottom:#c7c7c7 1px solid;}
+.zxcx_list li .txt1{ font-size:16px; color:#af8452; line-height:30px;}
+.zxcx_list li .txt2{ font-size:14px; color:#4a4a4a; line-height:30px;}
+
+/*地图*/
+.haier-school{ padding:20px 0;border-top:1px solid #E7E7E7;border-bottom:1px solid #E7E7E7;}
+.haier-school .mapH3{ font-weight:bold; padding-left:20px;}
+.haier-school .china-map{ background:url(../images/zhongguoditu.gif); width:626px; height:506px; overflow:hidden; position:relative; margin:30px 0 0 0px; font-family:"微软雅黑"; color:#5D5D5D; font-size:14px;}
+
+.china-map li.current a span{ color:#FFF;}
+.china-map li span{position:absolute; display:block; }
+.china-map li a{position:absolute; display:block; cursor:pointer;outline:none;}
+.heirongjiang{top:0px; right:0px; width:140px; height:124px;}
+.heirongjiang span{top:70px; left:64px;}
+.china-map li.current .heirongjiang{ background:url(../images/heirongjiang.png);_background:url(../images/heirongjiang.gif);}
+
+.xinjiang{top:59px; left:0px; width:248px; height:189px;}
+.xinjiang span{top:105px; left:110px;}
+.china-map li.current .xinjiang{background:url(../images/xinjiang.png);_background:url(../images/xinjiang.gif);}
+
+.gansu{top:159px; left:207px; width:177px; height:149px;}
+.gansu span{top:110px; left:116px;}
+.china-map li.current .gansu{background:url(../images/gansu.png);_background:url(../images/gansu.gif);}
+
+.neimenggu{top:6px; right:91px; width:273px; height:233px;}
+.neimenggu span{top:175px; left:104px;}
+.china-map li.current .neimenggu{background:url(../images/neimenggu.png);_background:url(../images/neimenggu.gif);}
+
+.xizang{top:234px; left:25px; width:244px; height:149px;}
+.xizang span{top:75px; left:110px;}
+.china-map li.current .xizang{background:url(../images/xizang.png);_background:url(../images/xizang.gif);}
+
+.qinghai{top:206px; left:163px; width:155px; height:112px;}
+.qinghai span{top:42px; left:67px;}
+.china-map li.current .qinghai{background:url(../images/qinghai.png);_background:url(../images/qinghai.gif);}
+
+.sichuan{top:286px; left:252px; width:122px; height:119px;}
+.sichuan span{top:42px; left:47px;}
+.china-map li.current .sichuan{background:url(../images/sicuan.png);_background:url(../images/sicuan.gif);}
+
+.yunnan{top:359px; left:246px; width:111px; height:116px;}
+.yunnan span{top:57px; left:42px;}
+.china-map li.current .yunnan{background:url(../images/yunnan.png);_background:url(../images/yunnan.gif);}
+
+.guangxi{top:401px; left:339px; width:94px; height:69px;}
+.guangxi span{top:27px; left:42px;}
+.china-map li.current .guangxi{background:url(../images/guangxi.png);_background:url(../images/guangxi.gif);}
+
+.guangdong{top:411px; left:402px; width:98px; height:75px;}
+.guangdong span{top:15px; left:42px;}
+.china-map li.current .guangdong{background:url(../images/guangdong.png);_background:url(../images/guangdong.gif);}
+
+.guizhou{top:357px; left:327px; width:76px; height:66px;}
+.guizhou span{top:27px; left:25px;}
+.china-map li.current .guizhou{background:url(../images/guizhou.png);_background:url(../images/guizhou.gif);}
+
+.hunan{top:344px; left:390px; width:68px; height:79px;}
+.hunan span{top:27px; left:25px;}
+.china-map li.current .hunan{background:url(../images/hunan.png);_background:url(../images/hunan.gif);}
+
+.chongqing{top:314px; left:349px; width:58px; height:59px;}
+.chongqing span{top:23px; left:9px;}
+.china-map li.current .chongqing{background:url(../images/chongqing.png);_background:url(../images/chongqing.gif);}
+
+.shanxi{top:209px; left:352px; width:62px; height:110px;}
+.shanxi span{top:70px; left:16px;}
+.china-map li.current .shanxi{background:url(../images/saixi.png);_background:url(../images/saixi.gif);}
+
+.ningxia{top:214px; left:335px; width:35px; height:53px;}
+.ningxia span{top:17px; left:6px;}
+.china-map li.current .ningxia{background:url(../images/ningxia.png);_background:url(../images/ningxia.gif);}
+
+.hubei{top:300px; left:385px; width:95px; height:58px;}
+.hubei span{top:20px; left:40px;}
+.china-map li.current .hubei{background:url(../images/hubei.png);_background:url(../images/hubei.gif);}
+
+.sanxi{top:191px; left:403px; width:43px; height:85px;}
+.sanxi span{top:32px; left:10px;}
+.china-map li.current .sanxi{background:url(../images/sanxi.png);_background:url(../images/sanxi.gif);}
+
+.henan{top:252px; left:407px; width:70px; height:67px;}
+.henan span{top:24px; left:20px;}
+.china-map li.current .henan{background:url(../images/henan.png);_background:url(../images/henan.gif);}
+
+.jilin{top:99px; left:508px; width:105px; height:66px;}
+.jilin span{top:24px; left:50px;}
+.china-map li.current .jilin{background:url(../images/jilin.png);_background:url(../images/jilin.gif);}
+
+.liaoning{top:138px; left:493px; width:74px; height:69px;}
+.liaoning span{top:18px; left:31px;}
+.china-map li.current .liaoning{background:url(../images/liaoning.png);_background:url(../images/liaoning.gif);}
+
+.shandong{top:222px; left:458px; width:80px; height:53px;}
+.shandong span{top:18px; left:16px;}
+.china-map li.current .shandong{background:url(../images/shandong.png);_background:url(../images/shandong.gif);}
+
+.jiangsu{top:263px; left:477px; width:69px; height:67px;}
+.jiangsu span{top:10px; left:22px;}
+.china-map li.current .jiangsu{background:url(../images/jiangsu.png);_background:url(../images/jiangsu.gif);}
+
+.sanghai{top:308px; left:529px; width:17px; height:17px;}
+.sanghai span{top:0px; left:0px; width:30px;}
+.china-map li.current .sanghai{background:url(../images/shanghai.png);_background:url(../images/shanghai.gif);}
+
+.anhui{top:273px; left:462px; width:59px; height:71px;}
+.anhui span{top:30px; left:16px;}
+.china-map li.current .anhui{background:url(../images/anhui.png);_background:url(../images/anhui.gif);}
+
+.jiangxi{top:339px; left:452px; width:58px; height:83px;}
+.jiangxi span{top:30px; left:11px;}
+.china-map li.current .jiangxi{background:url(../images/jiangxi.png);_background:url(../images/jiangxi.gif);}
+
+.zhejiang{top:331px; left:505px; width:46px; height:44px;}
+.zhejiang span{top:10px; left:11px;}
+.china-map li.current .zhejiang{background:url(../images/zhejiang.png);_background:url(../images/zhejiang.gif);}
+
+.fujian{top:364px; left:485px; width:52px; height:67px;}
+.fujian span{top:23px; left:11px;}
+.china-map li.current .fujian{background:url(../images/fujian.png);_background:url(../images/fujian.gif);}
+
+.taiwan{top:403px; left:540px; width:20px; height:48px;}
+.taiwan span{top:12px; left:0px; width:30px;}
+.china-map li.current .taiwan{background:url(../images/taiwan.png);_background:url(../images/taiwan.gif);}
+
+.hainan{bottom:0px; left:390px; width:31px; height:25px;}
+.hainan span{top:4px; left:0px;}
+.china-map li.current .hainan{background:url(../images/hainan.png);_background:url(../images/hainan.gif);}
+
+.hebei{top:158px; left:437px; width:67px; height:96px;}
+.hebei span{top:51px; left:10px;}
+.china-map li.current .hebei{background:url(../images/hebei.png);_background:url(../images/hebei.gif);}
+
+.beijing{top:182px; left:455px; width:23px; height:24px;}
+.beijing span{top:0px; left:0px; width:30px;}
+.china-map li.current .beijing{background:url(../images/beijing.png);_background:url(../images/beijing.gif);}
+
+.tianjin{top:193px; left:471px; width:14px; height:22px;}
+.tianjin span{top:4px; left:0px; width:30px;}
+.china-map li.current .tianjin{background:url(../images/tianjin.png);_background:url(../images/tianjin.gif);}

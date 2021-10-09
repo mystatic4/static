@@ -1,0 +1,500 @@
+
+/*banner*/
+.fullSlide{ width:100%;  position:relative;  height:576px; background:#000;  }
+	.fullSlide .bd{ margin:0 auto; position:relative; z-index:0; overflow:hidden;  }
+	.fullSlide .bd ul{ width:100% !important;  }
+	.fullSlide .bd li{ width:100% !important;  height:576px; overflow:hidden; text-align:center;  }
+	.fullSlide .bd li a{ display:block; height:576px; position:relative; }
+	.fullSlide .bd li a .f_txt{ background:url(http://www.china-gold.cn/html/cn/images/touming.png) repeat; height:58px; padding-top:5px; text-align:left; width:100%; position:absolute; left:0px; bottom:0px; font-size:20px; color:#fff; line-height:30px; padding-left:15px;}
+	.fullSlide .bd li a .f_txt span{ font-size:12px; line-height:20px;}
+
+	.fullSlide .hd{ width:100%;  position:absolute; z-index:1; bottom:0; left:0; height:42px; line-height:30px;  text-align:center;
+		 background:url(http://www.china-gold.cn/html/cn/images/tm.png) repeat; _filter:alpha(opacity=60); 
+	}
+	.fullSlide .hd ul{ text-align:right;  padding-top:16px; text-align:center;  }
+/*	.fullSlide .hd ul li{ cursor:pointer; display:inline-block; *display:inline; zoom:1; overflow:hidden; margin-right:3px;  width:20px; height:20px; line-height:20px; text-align:center; background:#3a3645; color:#FFFFFF;
+ filter:alpha(opacity=80);  
+      -moz-opacity:0.8;  
+      -khtml-opacity: 0.8;  
+      opacity: 0.8;  
+	}*/
+	.fullSlide .hd ul li{ cursor:pointer; display:inline-block; *display:inline; zoom:1; width:15px; height:15px;border-radius: 50%;  margin:0 5px; overflow:hidden; 
+		line-height:9999px; background:#fff;
+	}
+	.fullSlide .hd ul .on{ background:#af730a; }
+	.fullSlide .prev,
+	.fullSlide .next{ position:absolute; left:0px; top: 149px; display:block; width:30px; height:60px; overflow:hidden; cursor:pointer; background:url(http://www.china-gold.cn/html/cn/images/touming.png) repeat;  }
+	.fullSlide .prev img,
+	.fullSlide .next img{ margin-left:0px; margin-top:0px;}
+	.fullSlide .next{ left:auto; right:0px;}
+
+/**/
+.in_event{width:1000px;margin: 0 auto;}
+.in_event ul li{float:left;margin: 0 8px;}
+.in_event ul li .txt1{font-size: 16px;text-align: center;color: #333;}
+.in_event ul li .txt2{font-size: 14px;text-align: center;color: #333;}
+
+/*新闻*/
+.in_new{width: 1000px;margin: 0 auto;margin-top: 30px;border: 1px solid #ddd;}
+.in_new .in_new_txt{float: left;width: 50%;padding: 2%}
+.in_new .in_new_txt .in_new_txt_c{border-bottom: 1px dashed #ddd;}
+.in_new .in_new_txt .in_new_txt_c .txt1{font-size: 18px;color: #af730a}
+.in_new .in_new_txt .in_new_txt_c .txt2{font-size: 14px;color: #666}
+.in_new .in_new_txt .in_new_txt_c .txt3{font-size: 14px;color: #333}
+.in_new .in_new_txt .in_new_txt_c .txt4{font-size: 14px;color: #333;margin-top: 20px;float: right;}
+.in_new .in_new_txt .in_new_txt_c:hover .txt1,.in_new .in_new_txt .in_new_txt_c:hover .txt3{text-decoration: underline}
+.in_new ul{padding: 2%;}
+.in_new ul li{font-size: 14px;position: relative;padding-left: 5px;line-height:35px;}
+.in_new_img{float: left;width: 50%}
+.in_new  li:before{content: "";position: absolute;left: 0;width: 1px;height: 100%;background:#af730a;display: none}
+
+
+.in_new ul li:hover:before{content: "";position: absolute;left: 0;width: 1px;height: 100%;background:#af730a;display: block}
+.in_new ul li:hover a{color:#af730a }
+
+
+/*页脚*/
+.foot{background:#232323 url(http://www.china-gold.cn/html/cn/images/foot_bg.jpg)repeat-x top;margin-top: 20px;padding-bottom: 10px;}
+.foot .foot_box{width:1000px;margin: 0 auto; position:relative;}
+.foot .foot_box dl{float: left;color: white;width: 14.66%;text-align: center;}
+.foot .foot_box dl dt{line-height: 60px;text-align: left;font-size: 14px;}
+.foot .foot_box dl dd{text-align: left}
+.foot .foot_box dl dd a{line-height: 20px;color:#c6c6c6;font-size: 12px;}
+.foot .foot_box dl dd a:hover{text-decoration: underline;}
+.foot .copy .p{float: right;font-size: 14px;}
+.foot .copy .p p{margin-bottom: 0;line-height: 20px}
+.foot .foot_box .ewm{ position:absolute; right:0; top:60px; width:120px;}
+
+/*二级*/
+.nav2 {width: 1000px;margin: 0 auto;padding: 20px 0}
+.nav2 li{width:250px;margin: 0 auto;float: left;text-align: center;}
+.nav2 li img{margin: 0 auto;display: block;font-size: 14px}
+
+.gold{ margin: 0 auto;background:#f3f4f6 url(http://www.china-gold.cn/html/cn/images/ab_bg_1.jpg) center;}
+.gold_b{height: 600px; width: 1000px;margin: 0 auto;background:url(http://www.china-gold.cn/html/cn/images/ab_bg_2.png)left bottom no-repeat;padding: 20px 0}
+
+.gold_b .p{width:570px;height: 505px;float: right;margin-top: 40px}
+
+.title{padding-top: 30px}
+.title .p1{text-align: center;font-size: 24px;color: #333;position: relative;line-height: 40px}
+.title .p1:after{content: "";width: 180px;position: absolute;bottom: 0;left: 50%;margin-left: -90px;height: 2px;background:#987245;line-height: 40px }
+.title .p2{text-align: center;font-size: 24px;color: #999;text-transform:uppercase;}
+
+/*企业文化*/
+.qywh{width: 1000px;margin: 0 auto;}
+.qywh_txt{margin-top: 60px;}
+.qywh_txt img{float:right;margin-left: 20px;margin-bottom: 10px;}
+.qywh_txt span{color:#987245;font-size: 18px; }
+
+/*发展历程*/
+
+.about_bg{ position: fixed; width: 100%; height: 100%; top:0; left: 0;    background: url(http://www.china-gold.cn/html/cn/images/about_bg.jpg) no-repeat;background-size: cover;}
+
+.about_content{ width: 60%; margin: 0 auto;}
+
+.about_content h2,.about_content h3{ text-align: center; font-weight: bold; color: #000; }
+
+.about_content h2{ font-size: 40px;margin-bottom:50px;}
+
+.about_content h3{ font-size: 26px; margin-bottom: 60px;}
+
+.about_content p{ font-size: 16px; color: #000; line-height: 180%; margin-bottom: 20px; text-align: center;}
+
+.about_content.history{ text-align: center; position: relative;}
+
+/*大事记start*/
+
+.event_box{ width:1000px; margin: 3% auto 0;position: relative; min-height: 420px;}
+
+.event_box .parHd {width:1000px;; display: inline-block;
+
+    height: 92px;
+
+    overflow: hidden;}
+
+.parHd  ul{ width: 100%; text-align: center; margin: 0 auto; padding-top: 25px !important;}
+
+.parHd .tempWrap{ margin: 0 auto;}
+
+.parHd .tempWrap:after{      content: '';
+
+    width: 87%;
+
+    height: 1px;
+
+    background: #580000;
+
+    position: absolute;
+
+    /* top: 33%; */
+
+    /* right: -140%; */
+
+    right: 7%;
+
+    top: 35%;
+
+    /* margin-top: -0.5px; */
+
+    z-index: 10;}
+
+/*.parHd li:before{ content: ''; width: 180%; height: 1px; background: #580000; position: absolute;top: 0; right:-140%;right: 0;}*/ 
+
+.parHd li.no_line:before{ display: none;}
+
+
+.parHd li{  display: inline-block; cursor: pointer; padding-top: 30px; font-size: 16px; color: #000;margin:0 30px; position: relative; }
+
+.parHd li:after{ content: ''; background: url(http://www.china-gold.cn/html/cn/images/dot_ico.jpg) no-repeat; width: 24px; height: 24px; position: absolute;  z-index: 20;top: -2px; left: 50%; margin-left: -12px;}
+
+.parHd .act:after{ content: ''; background: url(http://www.china-gold.cn/html/cn/images/dot_ico_on.jpg) no-repeat; width: 40px; height: 40px; position: absolute;  z-index: 20;top: -8px; left: 34%; margin-left: -12px;}
+.parBd{ text-align: center; margin-top: 60px;}
+
+.parBd .txt1{ position: relative; font-size: 40px; margin-bottom: 3%; /*width: 200px;*/ color: #333;text-align: left;}
+
+
+.parBd .txt2{ line-height: 180%; font-size: 16px;text-align: left;}
+
+.parBd .txt3{text-align: left;line-height: 30px;height:120px;overflow: hidden}
+div#listBox {
+
+    width: 100%;
+
+}
+.parBd .slideBox{width:825px;margin: 0 auto;}
+.parBd .slideBox img{float: left;width: 340px;height: 221px}
+.parBd .slideBox .txt{float:right;width: 450px;}
+
+
+.sPrev,.sNext{ width: 30px; height: 30px; display: block; position: absolute; top:-73px;}
+
+.sPrev{ left: 0;}
+
+.sNext{ right: 0;}
+
+.sPrev img,.sNext img{transition: all .6s cubic-bezier(.51,1.1,.9,.95);
+
+    -moz-transition: all .6s cubic-bezier(.51,1.1,.9,.95);
+
+    -webkit-transition: all .6s cubic-bezier(.51,1.1,.9,.95);
+
+    -o-transition: all .6s cubic-bezier(.51,1.1,.9,.95);
+     }
+/*荣誉*/
+.honor{background: url(http://www.china-gold.cn/html/cn/images/honor_bg.jpg)center no-repeat;}
+.honor_b {width: 1000px;margin: 0 auto;padding-bottom: 30px;}
+.honor	.picScroll-left{ position:relative;margin-top: 50px;   }
+.honor	.picScroll-left .hd{padding:0 10px; position: absolute;width: 1050px;top:50%;margin-top: -25px;height: 0;left: 50%;margin-left: -525px;}
+.honor	.picScroll-left .hd .prev,.picScroll-left .hd .next{ display:block;  width:30px; height:50px; float:right; overflow:hidden;
+			 cursor:pointer; background:#6e6e6e;text-align: center;line-height:50px;transition: background 0.3s}
+.honor	.picScroll-left .hd .prev:hover,.picScroll-left .hd .next:hover{background: #987245;}
+.honor	.picScroll-left .hd .prev img,.picScroll-left .hd .next img{vertical-align: middle}
+.honor	.picScroll-left .hd .prev{float: left;}
+.honor	.picScroll-left .hd .next{ background-position:0 -50px;  }
+.honor	.picScroll-left .hd .prevStop{ background-position:-60px 0; }
+.honor	.picScroll-left .hd .nextStop{ background-position:-60px -50px; }
+.honor	.picScroll-left .hd ul{ float:right; overflow:hidden; zoom:1; margin-top:10px; zoom:1; }
+.honor	.picScroll-left .hd ul li{ float:left;  width:9px; height:9px; overflow:hidden; margin-right:5px; text-indent:-999px; cursor:pointer; background:url(http://www.china-gold.cn/html/cn/css/images/icoCircle.giff") 0 -9px no-repeat; }
+.honor	.picScroll-left .hd ul li.on{ background-position:0 0; }
+.honor	.picScroll-left .bd{ padding:10px;   }
+.honor	.picScroll-left .bd ul{ overflow:hidden; zoom:1; }
+.honor	.picScroll-left .bd ul li{ margin:0 33px; float:left; _display:inline; overflow:hidden; text-align:center; background: #eeeeee; height:350px;width: 260px;}
+.honor	.picScroll-left .bd ul li .pic{ text-align:center; }
+.honor	.picScroll-left .bd ul li .pic img{ width:260px;padding: 20px 20px 0 20px; height:170px; display:block;  }
+.honor	.picScroll-left .bd ul li .pic a:hover img{ border-color:#999;  }
+.honor	.picScroll-left .bd ul li .title{ padding: 20px;line-height:24px;text-align: left;}
+.honor .a{border-radius: 50px;width: 144px;display: block;text-align: center;margin: 0 auto;border-radius: 20px;border: 1px solid #b2b2b2;color: #b2b2b2;line-height:36px;margin-top: 20px;transition: color 0.3s,background 0.3s}
+.honor .a:hover{background: #987245;color: #fff}
+
+/*产品中心*/
+.nav3{width: 1000px;margin: 0 auto;padding-top: 40px}
+.nav3 dl dt,.nav3 dl dd{float: left;line-height: 30px;}
+.nav3 dl dt img{margin-right:20px;}
+.nav3 dl dt{color:#987245;font-size: 16px;border-right: 1px solid #666;padding-right: 20px;}
+.nav3 dl dd{margin: 0 10px;width: 130px;border-radius: 30px;border: 1px solid #ddd;text-align: center;transition: background 0.3s,color 0.3s;
+}
+.nav3 dl{float: left;}
+.nav3 dl dd:hover{background: #987245;color: #fff}
+.nav3 dl dd a{display: block;}
+.nav3 dl dd a:hover{color: #fff;}
+
+.search{float: right;border-radius: 30px;border: 1px solid #bebebe;padding-left: 45px;background: url(http://www.china-gold.cn/html/cn/images/search_bg.jpg) no-repeat 10px;overflow: hidden}
+.search .txt{border: none;}
+.search .submit{background: #987245;color: #fff;border: none;width: 50px;height: 33px;}
+
+/*产品中心*/
+.product{width: 1000px; margin: 30px auto;position: relative}
+.product_title{font-size: 30px;position: relative;text-align: center}
+.product:before{content: "";position: absolute;top: 17px;height: 1px;background: #999;width: 100%;left: 0;}
+.product_title span{background: #fff;padding: 20px;}
+.product ul li{float: left;margin: 30px 7px;background: #f4f4f4 }
+.product ul li p{text-align: center;width: 100%;line-height:60px;margin: 0}
+.product ul li{border: 2px solid #f4f4f4}
+.product ul li img{display: block;width: 230px;}
+.product ul li:hover{border: 2px solid #987245;background: #f4f4f4 url(http://www.china-gold.cn/html/cn/images/product_img_bg.jpg)no-repeat bottom right;}
+
+/*页码代码*/
+.pages { margin-top: 15px; font-size: 14px; font-weight: bold; line-height: 30px; text-align: center;float: right;}
+.pages a { text-decoration: none; color: #987245; background: #fff; border: 1px solid #987245;/*外框颜色*/ -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; padding: 5px 10px; padding-bottom: 6px; margin-right: 3px }
+.pages a.active { background: #987245; border: 1px solid #987245; color: #fff }/*激活状态颜色*/
+.pages a:hover {  background: #987245; border: 1px solid #987245; color: #fff; text-decoration: none;  }/*鼠标经过颜色*/
+
+/*产品详情*/
+.product_info{width: 1000px;margin:30px auto;min-height:700px;}
+
+.product_info .img{float: left;width: 480px; border:#f4f4f4 1px solid;}
+.product_info .txt{float: right;width: 480px}
+.product_info .txt1{line-height: 40px;font-size: 24px;color: #333;}
+.product_info .txt2{color: #5f5f5f;}
+.product_info .txt3{color: #5f5f5f;margin-top: 30px;}
+
+/*新闻*/
+.new{width: 1000px;margin: 0 auto;}
+.new ol{background: #f5f5f5;padding:20px;margin-top: 60px;}
+.new ol li{float: left;margin: 0 16px; width:288px;}
+.new ol li img{width: 284px;height: 174px;}
+.new ol li .txt1{font-size: 16px;}
+.new ul{margin-top:10px;}
+.new ul li{padding: 36px 0;border-bottom: 1px solid #ededed}
+.new ul li img{width: 320px;height: 193px}
+.new ul li .fd{;float: left;}
+.new ul li .txt{float: right;width: 650px;}
+.new ul li .txt .txt1{font-size: 16px;color: #333;}
+.new ul li:hover .txt .txt1{color: #987245;}
+.new ul li .txt .txt2{font-size: 14px;}
+.new ul li .txt .txt3{line-height:26px;height: 78px;}
+.new ul li .txt .txt4{display: block;width: 120px;color: #fff;text-align:center;margin-top: 10px;background: #999;}
+.new ul li .txt .txt4:hover{background: #987245;}
+.newinfo{
+	width: 1000px;
+	margin: 0 auto;
+}
+.newinfo .content{
+	padding: 30px 0;
+}
+.newinfo .content p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.newinfo .content img{
+	max-width: 100%;
+}
+.newinfo .content iframe{
+	width:100%;
+	height:600px;
+}
+.newinfo .title{
+	font-size: 18px;
+	color: #4a4a4a;
+	margin-top: 30px;
+	text-align: center;
+}
+.newinfo .time{
+	font-size: 12px;
+	text-align: center;
+	color: #7e7e7e;
+	line-height:30px;
+}
+.newinfo .previous{
+	float: left;
+	width: 30%;
+	margin-top: 30px
+}
+.newinfo .next{
+	float: right;
+	width: 30%;
+	margin-top: 30px;
+	text-align: right;
+}
+.in_xpss{width: 1000px; margin: 0 auto;}
+.in_xpss .picMarquee-left{ overflow:hidden; position:relative;    }
+.in_xpss	.picMarquee-left .hd{ overflow:hidden;  height:30px; background:#fff; padding:0 10px;  }
+.in_xpss	.picMarquee-left .hd .prev,.picMarquee-left .hd .next{ display:block;  width:5px; height:9px; float:right; margin-right:5px; margin-top:10px;  overflow:hidden;
+			 cursor:pointer; background:url(http://www.china-gold.cn/html/cn/images/arrow.pngg") no-repeat;}
+.in_xpss	.picMarquee-left .hd .next{ background-position:0 -50px;  }
+.in_xpss	.picMarquee-left .hd .prevStop{ background-position:-60px 0; }
+.in_xpss	.picMarquee-left .hd .nextStop{ background-position:-60px -50px; }
+.in_xpss	.picMarquee-left .bd{ padding:10px;   }
+.in_xpss	.picMarquee-left .bd ul{ overflow:hidden; zoom:1; }
+.in_xpss	.picMarquee-left .bd ul li{ margin:0 8px; float:left; _display:inline; overflow:hidden; text-align:center; border: 2px solid #f4f4f4 }
+.in_xpss	.picMarquee-left .bd ul li .pic{ text-align:center; }
+.in_xpss	.picMarquee-left .bd ul li .pic img{width: 230px;  display:block; padding:2px; margin:0 auto;  }
+.in_xpss	.picMarquee-left .bd ul li .pic a:hover img{ border-color:#999;  }
+.in_xpss	.picMarquee-left .bd ul li .pic p{text-align: center;width: 100%;line-height:22px;font-size: 14px; margin: 0;background: #f4f4f4}
+.in_xpss	.picMarquee-left .bd ul li .title{ line-height:24px;   }
+.in_xpss	.picMarquee-left .bd ul li:hover{border: 2px solid #987245;background: #f4f4f4 url(http://www.china-gold.cn/html/cn/images/product_img_bg.jpg)no-repeat bottom right;}
+
+header.theme-bright .header nav a:after{
+	content: "";
+	position: absolute;
+	bottom: 3px;
+	left: 50%;
+	
+	height: 4px;
+	width: 0px;
+	background: #987245;
+	transition: width 0.3s,left 0.3s;
+}
+header.theme-bright .header nav li:hover a:after{
+	width:60%;
+	left: 20%;
+}
+
+
+/*就业指导*/
+.jyzd_d2_title{ font-size:30px; color:#434343; font-weight:bold; line-height:60px; text-align:center;}
+.jyzd_d2_c .tempWrap{margin: 0 auto;}
+.jyzd_d2_list li{ float:left; width:420px; margin:0 17px;}
+.jyzd_d2_list li .img1{ text-align:center;}
+.jyzd_d2_list li .txt1{ font-size:14px; color:#434343; text-align:center; line-height:26px;background: #ebebeb;text-align: left;padding:10px; line-height:25px; height:95px; overflow:hidden;}
+.jyzd_d2_list li img{width: 100%;}
+
+.jyzd_d2_c .hd{ overflow:hidden;  height:40px;  }
+.jyzd_d2_c .hd ul{ overflow:hidden; zoom:1;zoom:1; text-align:center;}
+.jyzd_d2_c .hd ul li{ display:inline-block;  width:12px; height:12px; overflow:hidden; margin:0 15px; text-indent:-999px; cursor:pointer; background:#888888; border-radius:6px; }
+.jyzd_d2_c .hd ul li.on{ background:#987245; }
+
+.jyzd_d3 .title1{ font-size:36px; color:#8e0711; font-weight:bold; line-height:50px; text-align:center;}
+
+/*免费预约*/
+.yy{width: 1000px;margin: 0 auto;}
+.yy form{margin-top: 30px;}
+.yy .yy_d{float: left;margin: 20px 10px;}
+.yy .yy_t{float: left;width: 110px;line-height: 40px;}
+.yy .yy_t span{color: #cb0000;font-size: 20px}
+.yy .yy_b{float: left}
+.yy .yy_b input,.yy .yy_b select{width: 200px;height: 40px;font-size: 16px;padding-left: 10px;}
+.yy .yy_b .radio {width: 20px;display: inline;margin-right:2px;margin-left:5px;float: left}
+.yy .yy_b  span{;float: left;margin-top: 10px;}
+.yy .f_b input{display: inline-block;width: 80px;color: #fff;background: #999999;border: none;height: 30px;margin: 10px 20px;}
+.yy{text-align: center;}
+
+
+.toggle-icon li a span img,.nav2 li img{transition:transform 0.5s}
+.toggle-icon li a span:hover img,.nav2 li:hover img{transform:rotateY(360deg)}
+
+.fd{overflow: hidden;cursor: pointer}
+.fd img{transition:transform 0.3s}
+.fd:hover img{transform: scale(1.2)}
+
+.new ol li:hover img{transform: scale(1.2)}
+.new ul li:hover img{transform: scale(1.2)}
+
+#scroll {
+	position: fixed;
+	left: 90%;
+	top: 73%;
+}
+
+.scroll-ico {
+	width: 49px;
+	height: 49px;
+	background-color: #c9c9c9;
+	border-radius: 50%;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.scroll-ico:hover {
+	background-color: #987245;
+}
+
+.scrol-u {
+	-webkit-animation: upup 2.0s infinite linear;
+}
+
+.product_title{font-size: 30px;position: relative;text-align: center}
+.xpss{position: relative;margin-top: 60px;background: #f5f5f5;padding-top: 29px}
+.xpss:before{content: "";position: absolute;top: 47px;height: 1px;background: #999;width: 1000px;left:50%; margin-left:-500px;}
+.product_title span{background: #fff;padding: 20px;}
+.product_title span span{
+	border: 1px solid #999;
+	color: #666;
+	border-radius: 50px;
+	font-size: 14px;
+	padding: 6px 41px;
+}
+
+.in_new2{position: relative;margin-top: 60px;padding-top: 29px;width: 1000px;margin: 0 auto;}
+.in_new2:before{content: "";position: absolute;top: 47px;height: 1px;background: #999;width: 1000px;left:50%; margin-left:-500px;}
+.product_title span{background: #fff;padding: 20px;}
+.product_title span span{
+	border: 1px solid #999;
+	color: #666;
+	border-radius: 50px;
+	font-size: 14px;
+	padding: 6px 41px;
+}
+.in_new2 .left{
+	float: left;width: 68%;margin-top: 30px;
+}
+.in_new2 .right{
+	float: right;width: 30%;margin-top: 30px;
+}
+.in_new2 .right img{
+	width: 100%;
+}
+.in_new2 .left .left_box{
+	float: left;
+	width: 36%;
+}
+.in_new2 .left .left_box img{
+	width: 100%;
+}
+.in_new2 .left .right_box{
+	width: 60%;
+	float: right;
+}
+.in_new2 .left .right_box .txt1{
+	font-size: 16px;
+	border-bottom: 1px dashed #999;
+	line-height: 26px;
+}
+
+.in_new2 .left .right_box .txt1 span{
+	float: right;
+	color: #999;
+	font-size: 12px;
+}
+.in_new2 .left .right_box .txt2{
+	font-size: 14px;
+	line-height: 24px;
+	color: #333;
+	margin-top: 10px;
+}
+.in_new2 .left .right_box .txt3{
+	font-size: 12px;
+	line-height: 20px;
+	color: #757575;
+}
+.in_new2 .left .right_box .txt4{
+	line-height: 24px;
+	font-size: 14px;
+	overflow: hidden;
+	height: 48px;
+}
+.in_new2 .left .right_box .a:hover .txt2{
+	color: #987245;
+}
+.in_new2 .left .right_box .txt5{
+	line-height: 20px;
+	font-size: 12px;
+}
+.in_new2 ul li{
+	float: left;
+	margin: 40px 10px;
+}
+.in_new2 ul li img{
+	width: 313px;
+	height:195px
+}
+.in_new2 ul li .p1{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+.in_new2 ul li .p2{
+	line-height: 30px;
+	font-size: 12px;
+	text-align: center;
+}
